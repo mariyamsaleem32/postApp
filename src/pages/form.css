@@ -1,0 +1,32 @@
+body{
+background: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.3));
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.main-signup{
+    padding-top: 100px;
+    box-sizing: border-box;
+    border: none;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, #c51a1a, #7a7745, #2a3e3f, #df94aa);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-login{
+    padding-top: 60px;
+    box-sizing: border-box;
+    border: none;
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(45deg, #c51a1a, #7a7745, #2a3e3f, #df94aa);
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
